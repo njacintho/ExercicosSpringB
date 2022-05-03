@@ -1,4 +1,4 @@
-package br.com.udemy.exercicioaspringb.models;
+package br.com.udemy.exercicioaspringb.models.entities;
 
 public class Cliente {
 	
