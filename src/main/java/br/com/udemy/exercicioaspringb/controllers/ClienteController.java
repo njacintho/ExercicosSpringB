@@ -27,6 +27,5 @@ public class ClienteController {
 	@GetMapping //coloca uma vairavel que deseja depis de /cliente?id=123
 	public Cliente obterClientePorId2(@RequestParam(name = "id", defaultValue = "1") int id) {
 		return new Cliente(id, "João Augusto", "567.678.345-31");
-		
 	}
 }

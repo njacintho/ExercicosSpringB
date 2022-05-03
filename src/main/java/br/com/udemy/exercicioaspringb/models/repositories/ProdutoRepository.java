@@ -20,7 +20,6 @@ public interface ProdutoRepository extends PagingAndSortingRepository<Produto, I
 	//findByNomeIsContaining
 	//findByNomeIsContains
 	
-	
 	//findByNomeStarstWith
 	//findByNomeEndsWith
 

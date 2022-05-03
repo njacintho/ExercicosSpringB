@@ -16,7 +16,6 @@ public class CalculadoraController {
 
 	}
 
-
 	@GetMapping("/subtrair")//("subtrair?a=num1&b=num2")
 	public String obterSubtracao(@RequestParam (name = "a")int a , @RequestParam(name = "b") int b) {
 		return "subtração = " + (a - b);

@@ -13,5 +13,4 @@ public class PrimeiroController {
 	public String ola() {
 		return "Olá Spring Boot";
 	}
-
 }

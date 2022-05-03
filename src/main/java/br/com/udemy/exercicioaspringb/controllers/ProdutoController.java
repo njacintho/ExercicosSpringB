@@ -78,7 +78,6 @@ public class ProdutoController {
 		produtoRepository.deleteById(id);
 	}
 	
-	
 //	@PutMapping // metodos com os mesmo parametros podem ser usado o RequstMapping
 //	public Produto alterarProduto(@Valid Produto produto) {
 //		produtoRepository.save(produto);
